@@ -43,3 +43,14 @@ var name = "Rusty";
 var number = 73;
 var isAdorable = true;
 
+//clear console
+clear()
+
+//alert
+alert("hello there!!");
+
+//console.log
+console.log("hello from the console")
+
+//prompt
+prompt("what is your name?")
