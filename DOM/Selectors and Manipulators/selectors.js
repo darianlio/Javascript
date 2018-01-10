@@ -28,3 +28,9 @@ tag.textContent ="blah blah" //alter text content
 //innerHTML
 tag.innerHTML //returns string with all HTML content
 
+//getAttribute()
+var link = document.querySelector("a");
+link.getAttribute("href");
+//setAttribute()
+link.setAttribute("href", "www.dogs.com"); //change source of href attribute
+
