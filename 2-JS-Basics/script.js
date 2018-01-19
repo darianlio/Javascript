@@ -11,3 +11,7 @@
 //var fullAge = true;
 //console.log(fullAge);
 
+//Variables 2
+var name = 'John';
+var age = 26;
+console.log(name + age);
