@@ -205,27 +205,59 @@
 //john.age = age;
 
 //V2
-var john = {
-    name: "John",
-    lastName: "Smith",
-    yearOfBirth: 1990,
-    job: "teacher",
-    isMarried: false,
-    family: ["Jane", "Mark", "Bob"],
-    calculateAge: function(){
-        this.age = 2016 - this.yearOfBirth;
+//var john = {
+//    name: "John",
+//    lastName: "Smith",
+//    yearOfBirth: 1990,
+//    job: "teacher",
+//    isMarried: false,
+//    family: ["Jane", "Mark", "Bob"],
+//    calculateAge: function(){
+//        this.age = 2016 - this.yearOfBirth;
+//    }
+//};
+//
+//jon.calculateAge();
+//console.log(john);
+//
+//var mike = {
+//    yearOfBirth: 1950,
+//    calculateAge: function(){
+//        this.age = 2016 - this.yearOfBirth;
+//    }
+//};
+//
+//mike.calculateAge();
+//console.log(mike);
+
+//Loops
+
+//For Loops
+for (var i = 0; i < 10; i++){
+    console.log(i);
+}
+
+var names = ["John", "Jane", "Mary", "Mark", "Bob"];
+
+for (var i = 0; i < names.length; i++){
+    console.log(names[i]);
+}
+
+for (var i = names.length - 1; i >= 0; i--){
+    console.log(names[i]);
+}
+
+//While Loops
+var i = 0;
+while (i < names.length){
+    console.log(names[i]);
+    i++
+}
+
+for (var i = 0; i <= 5; i++){
+    if (i===3){
+        continue;
     }
-};
-
-jon.calculateAge();
-console.log(john);
-
-var mike = {
-    yearOfBirth: 1950,
-    calculateAge: function(){
-        this.age = 2016 - this.yearOfBirth;
-    }
-};
-
-mike.calculateAge();
-console.log(mike);
+    
+    console.log(i);
+}
