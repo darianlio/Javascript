@@ -12,24 +12,43 @@
 //console.log(fullAge);
 
 //Variables 2
-var name = 'John';
-var age = 26;
-console.log(name + age);
-console.log(age + age);
+//var name = 'John';
+//var age = 26;
+//console.log(name + age);
+//console.log(age + age);
+//
+//var job, isMarried;
+//console.log(job);
+//
+//job = 'teacher';
+//isMarried = false;
+//console.log(name + " is a " + age + " years old " + job + ". Is he married? " + isMarried);
+//
+//age = "thiry six";
+//job = "driver";
+//
+//console.log(name + " is a " + age + " years old " + job + ". Is he married? " + isMarried);
+//
+//var lastName = prompt("What is your last name?");
+//console.log(lastName);
+//
+//alert(name + " is a " + age + " years old " + job + ". Is he married? " + isMarried);
 
-var job, isMarried;
-console.log(job);
+// Operators
+var now = 2018;
+var birthYear = now - 21;
 
-job = 'teacher';
-isMarried = false;
-console.log(name + " is a " + age + " years old " + job + ". Is he married? " + isMarried);
+birthYear = now - 21 * 2;
 
-age = "thiry six";
-job = "driver";
+console.log(birthYear);
 
-console.log(name + " is a " + age + " years old " + job + ". Is he married? " + isMarried);
+var ageJohn = 30;
+var ageMark = 30;
 
-var lastName = prompt("What is your last name?");
-console.log(lastName);
+ageJohn = ageMark = (3 + 5) * 4 - 6;
 
-alert(name + " is a " + age + " years old " + job + ". Is he married? " + isMarried);
+ageJohn++;
+ageMark *= 2;
+
+console.log(ageJohn);
+console.log(ageMark);
