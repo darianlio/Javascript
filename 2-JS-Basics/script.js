@@ -123,11 +123,32 @@
 //yearsUntilRetirement("John", 1990);4
 
 //Statements and Expressions
-function someFun(par) {
-    //code
-}
+//function someFun(par) {
+//    //code
+//}
+//
+//var someFun = function(par){
+//    //code
+//}
 
-var someFun = function(par){
-    //code
-}
+//Arrays
+var names = ["John", "Jane", "Mark"];
+var years = new Array(1990, 1969, 1948);
 
+console.log(names[0]);
+names[1] = "Ben";
+console.log(names);
+
+var john = ["John", "Smith", 1990, "designer", false];
+
+john.push("blue");
+john.unshift("Mr.");
+john.pop();
+john.shift();
+console.log(john);
+
+alert(john.indexOf("Smith"));
+
+if(john.indexOf("teacher")) === -1 {
+    console.log("John is not a teacher")
+}
