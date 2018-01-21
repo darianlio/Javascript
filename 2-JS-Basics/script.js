@@ -132,23 +132,53 @@
 //}
 
 //Arrays
-var names = ["John", "Jane", "Mark"];
-var years = new Array(1990, 1969, 1948);
+//var names = ["John", "Jane", "Mark"];
+//var years = new Array(1990, 1969, 1948);
+//
+//console.log(names[0]);
+//names[1] = "Ben";
+//console.log(names);
+//
+//var john = ["John", "Smith", 1990, "designer", false];
+//
+//john.push("blue");
+//john.unshift("Mr.");
+//john.pop();
+//john.shift();
+//console.log(john);
+//
+//alert(john.indexOf("Smith"));
+//
+//if(john.indexOf("teacher")) === -1 {
+//    console.log("John is not a teacher")
+//}
 
-console.log(names[0]);
-names[1] = "Ben";
-console.log(names);
+//Objects
+var john = {
+    name: "John",
+    lastName: "Smith",
+    yearOfBirth: 1990,
+    job: "teacher",
+    isMarried: "false"
+};
 
-var john = ["John", "Smith", 1990, "designer", false];
+console.log(john);
+console.log(john.lastName);
+console.log(john["lastName"]);
 
-john.push("blue");
-john.unshift("Mr.");
-john.pop();
-john.shift();
+var xyz = "job";
+console.log(john[xyz]);
+
+john.lastName = "Miller";
+john["job"] = "programmer";
+
 console.log(john);
 
-alert(john.indexOf("Smith"));
+var jane = new Object();
+jane.name = "Jane";
+jane.lastName = "Smith";
+jane["yearOfBirth"] = 1969;
+jane["job"] = "retired";
+jane["isMarried"] = true;
 
-if(john.indexOf("teacher")) === -1 {
-    console.log("John is not a teacher")
-}
+console.log(jane);
