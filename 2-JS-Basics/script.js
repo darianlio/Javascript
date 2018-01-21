@@ -52,3 +52,21 @@ ageMark *= 2;
 
 console.log(ageJohn);
 console.log(ageMark);
+
+// If/else statments
+var name = "Darian";
+var age = 20;
+var isMarried = "no";
+
+if (isMarried === "yes"){
+    console.log(name + " is Married");
+} else {
+    console.log(name + " will hopefully marry soon");
+}
+
+isMarried = false;
+if(isMarried){
+    console.log(name + " is Married");
+} else {
+    console.log(name + " will hopefully marry soon");
+}
