@@ -84,6 +84,8 @@ else {
 
 var job = "teacher";
 
+job = prompt("What does John do?");
+
 switch(job){
     case "teacher":
         console.log("John is a teacher");
@@ -94,4 +96,6 @@ switch(job){
     case "cop":
         console.log("John helps fight crime");
         break;
+    default: 
+        console.log("JOhn does something else.");
 }
