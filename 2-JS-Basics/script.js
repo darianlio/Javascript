@@ -101,23 +101,33 @@
 //}
 
 //Function
-function calculateAge(yearOfBirth){
-    var age = 2016 - yearOfBirth;
-    return age;
+//function calculateAge(yearOfBirth){
+//    var age = 2016 - yearOfBirth;
+//    return age;
+//}
+//
+//var ageJohn = calculateAge(1990);
+//console.log(ageJohn);
+//
+//function yearsUntilRetirement(name, yearofBirth){
+//    var age = calculateAge(yearOfBirth);
+//    var retirement = 65 - age;
+//    
+//    if (retirement >= 0){
+//        console.log(retirement);   
+//    } else {
+//        console.log("Is already retired.");
+//    }
+//}
+//
+//yearsUntilRetirement("John", 1990);4
+
+//Statements and Expressions
+function someFun(par) {
+    //code
 }
 
-var ageJohn = calculateAge(1990);
-console.log(ageJohn);
-
-function yearsUntilRetirement(name, yearofBirth){
-    var age = calculateAge(yearOfBirth);
-    var retirement = 65 - age;
-    
-    if (retirement >= 0){
-        console.log(retirement);   
-    } else {
-        console.log("Is already retired.");
-    }
+var someFun = function(par){
+    //code
 }
 
-yearsUntilRetirement("John", 1990);
